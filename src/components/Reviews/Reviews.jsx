@@ -18,7 +18,7 @@ const reviewsData = [
     name: "Ankit Verma",
     role: "Final Year Engineering Student",
     city: "Pune",
-    rating: 4,
+    rating: 5,
     text: "The recorded + live format worked really well for me because of college. I revisited the recordings multiple times and slowly understood market structure. This course gave me clarity.",
     highlights: [
       "Flexible learning",
@@ -38,7 +38,7 @@ const reviewsData = [
     name: "Saurabh Mishra",
     role: "Small Business Owner",
     city: "Indore",
-    rating: 4,
+    rating: 5,
     text: "Offline sessions helped me a lot. Face-to-face interaction and practical examples made concepts easier to understand. The mentors were very approachable.",
     highlights: ["Offline experience", "Hands-on learning", "Good mentors"],
   },

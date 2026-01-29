@@ -38,6 +38,8 @@
   max-width: 1200px;
   margin: 0 auto 40px;
   display: flex;
+  align-items: center;
+  
   justify-content: space-between;
   gap: 40px;
   align-items: flex-start;
@@ -45,7 +47,18 @@
 
 /* BRAND */
 .footer-brand {
-  max-width: 380px;
+  
+ 
+  .footer-fix{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+
 
   .logo {
     display: flex;
@@ -69,6 +82,7 @@
     font-size: 14px;
     line-height: 1.6;
   }
+}
 }
 
 /* SOCIAL */
@@ -149,5 +163,90 @@
 
   .cta-actions {
     flex-direction: column;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  .footer {
+    margin-top: 100px;
+    padding: 0 16px 32px;
+  }
+
+  /* CTA BOX */
+  .footer-cta {
+    margin-bottom: 60px;
+    padding: 32px 20px;
+    border-radius: 16px;
+
+    h2 {
+      font-size: 22px;
+      line-height: 1.3;
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .cta-actions {
+    gap: 14px;
+
+    button {
+      width: 100%;
+    }
+  }
+
+  /* MAIN CONTENT */
+  .footer-content {
+    gap: 28px;
+    margin-bottom: 28px;
+  }
+
+  /* BRAND */
+  .footer-brand {
+    max-width: 100%;
+
+    .logo {
+      justify-content: center;
+
+      span {
+        font-size: 20px;
+      }
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
+
+  /* SOCIAL */
+  .footer-social {
+    span {
+      font-size: 13px;
+    }
+
+    .icons a {
+      height: 34px;
+      width: 34px;
+      font-size: 14px;
+    }
+  }
+
+  /* LINKS */
+  .footer-links {
+    gap: 18px;
+
+    a {
+      font-size: 12px;
+    }
+  }
+
+  /* COPYRIGHT */
+  .footer-copy {
+    font-size: 12px;
   }
 }

@@ -52,8 +52,8 @@ const Home = () => {
             </div>
 
             <div className="buttons">
-              <button className="bt1">Get Pricing & Register</button>
-              <button className="bt2">Get Community</button>
+              <Button variant="primary">Get Pricing & Register</Button>
+              <Button variant="primary">Get Community</Button>
             </div>
           </div>
 
@@ -69,7 +69,7 @@ const Home = () => {
             </div>
 
             <div className="buttons">
-              <button>Get Brochure</button>
+              <Button variant="primary">Get Brochure</Button>
             </div>
           </div>
         </div>
@@ -101,9 +101,9 @@ const Home = () => {
       </div>
 
       <Masterclass />
-      <Curriculum/>
-      <Reviews/>
-      <Footer/>
+      <Curriculum />
+      <Reviews />
+      <Footer />
     </>
   );
 };

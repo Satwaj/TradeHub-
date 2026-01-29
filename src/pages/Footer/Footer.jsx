@@ -1,6 +1,8 @@
 import "./Footer.scss";
 import Button from "../../components/Button";
 import { Link } from "react-router-dom";
+import { Mail } from "lucide-react";
+import {Instagram} from "lucide-react"
 
 const Footer = () => {
   return (
@@ -19,7 +21,7 @@ const Footer = () => {
           </Link>
 
           <Link to="/about">
-            <Button variant="secondary">Learn More</Button>
+            <Button variant="primary">Learn More →</Button>
           </Link>
         </div>
       </div>
@@ -28,15 +30,20 @@ const Footer = () => {
       <div className="footer-content">
         {/* LEFT */}
         <div className="footer-brand">
-          <div className="logo">
-            <img src="/logo.png" alt="TradeHub" />
-            <span>TradeHub</span>
-          </div>
+          <div className="footer-fix">
+            <div className="logo">
+              <img src="/logo.png" alt="" />
+              <h1>
+                Trade<span>Hub</span>
+              </h1>
+            </div>
 
-          <p>
-            Professional trading education platform empowering traders with
-            structured learning, mentorship, and real market exposure.
-          </p>
+            <p>
+              Professional trading education platform empowering traders with
+              structured
+            </p>
+            <p> learning, mentorship, and real market exposure.</p>
+          </div>
         </div>
 
         {/* RIGHT */}
@@ -44,10 +51,10 @@ const Footer = () => {
           <span>Follow us</span>
           <div className="icons">
             <a href="#" aria-label="Instagram">
-              📸
+              <Instagram />
             </a>
             <a href="#" aria-label="Email">
-              ✉️
+              <Mail />
             </a>
           </div>
         </div>

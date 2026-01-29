@@ -286,12 +286,12 @@
 
         button{
            margin: 10px;
-        padding: 10px 30px;
-        font-size: 1.3rem;
-        color: rgb(233, 231, 231);
-        background: #3b82f6;
-        border-radius: 10px;
-        border: none;
+        // padding: 10px 30px;
+        // font-size: 1.3rem;
+        // color: rgb(233, 231, 231);
+        // background: #3b82f6;
+        // border-radius: 10px;
+        // border: none;
         
          
 
@@ -299,7 +299,7 @@
          &:hover {
             transform: scale(1.05);
           
-            box-shadow: 0 20px 50px rgba(75, 148, 249, 0.632);
+            // box-shadow: 0 20px 50px rgba(75, 148, 249, 0.632);
           }
 
         }
@@ -432,4 +432,112 @@
     }
   }
 }
+}
+
+@media (max-width: 1024px) {
+  .home {
+    .section1 {
+      margin: 2rem;
+      padding: 1.5rem;
+    }
+
+    .section2 {
+      .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    /* SECTION 1 */
+    .section1 {
+      margin: 1.5rem;
+      padding: 1rem;
+      gap: 2rem;
+
+      .intro h1 {
+        font-size: 2.5rem;
+        text-align: center;
+      }
+
+      .text p {
+        font-size: 1.1rem;
+        text-align: center;
+      }
+    }
+
+    /* CARDS */
+    .section2 {
+      .card-section {
+        .cards {
+          flex-direction: column;
+          padding: 40px 16px;
+
+          .card1,
+          .card2,
+          .card3 {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+
+      /* BUTTONS */
+      .buttons {
+        flex-direction: column;
+        gap: 16px;
+
+        .bt1,
+        .bt2 {
+          width: auto;
+          max-width: 250px;
+          padding: 8px 20px;
+          font-size: 1rem;
+          text-align: center;
+        }
+      }
+
+      /* BROCHURE */
+      .brochure {
+        width: 100%;
+        margin: 40px auto;
+        height: auto;
+        padding: 24px;
+
+        .info {
+          flex-direction: column;
+          gap: 16px;
+          text-align: center;
+        }
+
+        .buttons button {
+          width: 100%;
+        }
+      }
+    }
+
+    /* SECTION 3 */
+    .section3 {
+      .sec3 {
+        gap: 32px;
+
+        .info h1 {
+          font-size: 2.6rem;
+          text-align: center;
+        }
+
+        .programs {
+          flex-direction: column;
+          gap: 16px;
+
+          button {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }

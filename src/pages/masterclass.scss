@@ -313,3 +313,127 @@
   background: linear-gradient(135deg, #fff7ed, #ffedd5);
 }
 
+
+
+
+@media (max-width: 1024px) {
+  .masterclass {
+    padding: 60px 20px;
+  }
+
+  .top {
+    flex-wrap: wrap;
+  }
+
+  .included-section {
+    grid-template-columns: 1fr;
+  }
+
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  /* MASTERCLASS */
+  .masterclass {
+    padding: 40px 16px;
+  }
+
+  /* TOGGLE */
+  .toggle {
+    flex-direction: column;
+    gap: 12px;
+
+    button {
+      width: 100%;
+      font-size: 14px;
+    }
+  }
+
+  /* CARD TOP */
+  .top {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .right {
+    text-align: left;
+
+    h3 {
+      font-size: 22px;
+    }
+  }
+
+  .left h2 {
+    font-size: 22px;
+  }
+
+  /* INFO ROW */
+  .info {
+    flex-direction: column;
+    gap: 8px;
+    padding: 14px;
+    font-size: 13px;
+  }
+
+  /* CTA */
+  .cta {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  /* INCLUDED SECTION */
+  .included-section {
+    margin: 60px auto;
+    gap: 20px;
+  }
+
+  .included-card {
+    padding: 24px;
+  }
+
+  .included-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* STATS */
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .stat h2 {
+    font-size: 26px;
+  }
+
+  /* BENEFITS */
+  .benefits {
+    padding: 24px;
+    margin: 40px auto;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* COMPARISON */
+  .comparison {
+    margin: 80px auto;
+
+    .title {
+      font-size: 24px;
+    }
+  }
+
+  .compare-card {
+    padding: 28px 20px;
+
+    h3 {
+      font-size: 18px;
+    }
+  }
+}

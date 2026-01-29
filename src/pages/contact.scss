@@ -104,6 +104,9 @@
   }
 }
 
+
+
+
 /* RESPONSIVE */
 @media (max-width: 900px) {
   .contact-wrapper {
@@ -112,5 +115,72 @@
 
   .contact-header h1 {
     font-size: 34px;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  .contact {
+    margin: 80px auto;
+    padding: 0 16px;
+  }
+
+  /* HEADER */
+  .contact-header {
+    margin-bottom: 40px;
+
+    h1 {
+      font-size: 28px;
+      line-height: 1.2;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  /* WRAPPER */
+  .contact-wrapper {
+    gap: 32px;
+  }
+
+  /* INFO CARDS */
+  .info-card {
+    padding: 20px;
+    border-radius: 14px;
+
+    h3 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  /* FORM */
+  .contact-form {
+    padding: 24px;
+    border-radius: 16px;
+  }
+
+  .field {
+    label {
+      font-size: 13px;
+    }
+
+    input,
+    textarea {
+      font-size: 14px;
+      padding: 10px 12px;
+    }
+  }
+
+  /* BUTTON */
+  .contact-form button {
+    width: 100%;
+    margin-top: 10px;
   }
 }

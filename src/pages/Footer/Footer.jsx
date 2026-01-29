@@ -1,4 +1,6 @@
 import './footer.scss'
+
+
 import Button from "../../components/Button";
 import { Link } from "react-router-dom";
 import { Mail } from "lucide-react";

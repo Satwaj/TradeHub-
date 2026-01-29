@@ -1,0 +1,106 @@
+.curriculum {
+  max-width: 1100px;
+  margin: 120px auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+/* Badge */
+.badge {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 9999px;
+  background: #eaffc7;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+/* Title */
+.title {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto 60px;
+}
+
+/* List */
+.curriculum-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* Card base */
+.curriculum-card {
+  position: relative;
+  padding: 32px 40px;
+  border-radius: 18px;
+  text-align: left;
+  color: #111;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+
+  h2 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.12);
+  }
+}
+
+/* Meta row */
+.meta {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+
+  .month {
+    background: rgba(255, 255, 255, 0.35);
+    padding: 6px 14px;
+    border-radius: 9999px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .weeks {
+    font-size: 14px;
+    opacity: 0.9;
+  }
+}
+
+/* Arrow */
+.arrow {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 28px;
+  opacity: 0.8;
+}
+
+/* Color variants (soft & premium) */
+.curriculum-card.blue {
+  background: linear-gradient(135deg, #eaf2ff, #dbeafe);
+}
+
+.curriculum-card.purple {
+  background: linear-gradient(135deg, #f3e8ff, #e9d5ff);
+}
+
+.curriculum-card.green {
+  background: linear-gradient(135deg, #ecfdf5, #d1fae5);
+}
+
+.curriculum-card.orange {
+  background: linear-gradient(135deg, #dd915a5b, #f0603066);
+}

@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import Button from "../components/Button";
-import Footer from "./Footer/Footer";
+import Footer from "./Footer";
 import './masterclass.scss'
 
 

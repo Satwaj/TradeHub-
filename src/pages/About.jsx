@@ -1,8 +1,8 @@
 import './about.scss'
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
-import Reviews from "../components/Reviews/Reviews";
-import Footer from "./Footer/Footer";
+import Reviews from "../components/Reviews";
+import Footer from "./Footer";
 
 const About = () => {
   return (

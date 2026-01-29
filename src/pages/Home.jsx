@@ -2,9 +2,9 @@ import React from "react";
 import './home.scss'
 import Button from "../components/Button";
 import Masterclass from "./Masterclass";
-import Curriculum from "./curriculum/Curriculum";
-import Reviews from "../components/Reviews/Reviews";
-import Footer from "./Footer/Footer";
+import Curriculum from "./Curriculum";
+import Reviews from "../components/Reviews";
+import Footer from "./Footer";
 
 
 const Home = () => {

@@ -1,7 +1,8 @@
-import "./masterclass.scss"; // reuse same styles
+
 import { useState } from "react";
 import Button from "../components/Button";
 import Footer from "./Footer/Footer";
+import './masterclass.scss'
 
 
 const data = [

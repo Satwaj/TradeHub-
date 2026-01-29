@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.scss"
+import './home.scss'
 import Button from "../components/Button";
 import Masterclass from "./Masterclass";
 import Curriculum from "./curriculum/Curriculum";

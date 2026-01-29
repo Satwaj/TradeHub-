@@ -1,7 +1,7 @@
-import "./contact.scss"
+
 import Button from "../components/Button";
 import Footer from "./Footer/Footer";
-
+import './contact.scss'
 const Contact = () => {
   return (
     <section className="contact">

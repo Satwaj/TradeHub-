@@ -1,6 +1,7 @@
 import "./masterclass.scss"; // reuse same styles
 import { useState } from "react";
 import Button from "../components/Button";
+import Footer from "./Footer/Footer";
 
 
 const data = [
@@ -174,6 +175,7 @@ const Courses = () => {
            </div>
          </div>
        </section>
+       <Footer/>
      </>
    );
 };

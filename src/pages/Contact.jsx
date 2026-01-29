@@ -1,5 +1,6 @@
 import "./contact.scss";
 import Button from "../components/Button";
+import Footer from "./Footer/Footer";
 
 const Contact = () => {
   return (
@@ -56,6 +57,7 @@ const Contact = () => {
           <Button variant="primary">Send Message</Button>
         </form>
       </div>
+      <Footer/>
     </section>
   );
 };

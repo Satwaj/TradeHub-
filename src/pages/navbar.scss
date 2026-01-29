@@ -53,33 +53,49 @@
   list-style: none;
   display: flex;
   gap: 32px;
+  color: #000;
 
   li {
     cursor: pointer;
     font-weight: 500;
-    color: #444;
+    color: #000000; // dark gray (better than pure black initially)
     position: relative;
+    padding: 6px 10px;
+    transition: 
+      color 0.25s ease,
+      font-weight 0.25s ease,
+      transform 0.25s ease,
+      box-shadow 0.25s ease;
+
+    border-radius: 6px;
 
     &:hover {
-      color: #7c7d81;
+      color: #000;               // pure black
+      font-weight: 700;          // bold on hover
+      transform: translateY(-2px); // subtle lift
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+      background: #ffffff;
     }
 
+    /* underline animation */
     &::after {
       content: "";
       position: absolute;
-      left: 0;
+      left: 50%;
       bottom: -6px;
       width: 0;
       height: 2px;
-      background: #2563eb;
-      transition: width 0.3s ease;
+      
+      transition: all 0.3s ease;
+      transform: translateX(-50%);
     }
 
     &:hover::after {
-      width: 100%;
+      width: 70%;
     }
   }
 }
+
 
 /* CTA */
 .nav-cta {

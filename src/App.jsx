@@ -15,17 +15,20 @@ const App = () => {
   return (
     <BrowserRouter>
       {/* NAVBAR ALWAYS VISIBLE */}
-      <Navbar />
+      <div className="app">
+        <Navbar />
 
-      {/* ROUTES */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/masterclass" element={<Masterclass />} />
+        {/* ROUTES */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/masterclass" element={<Masterclass />} />
 
-        <Route path="/coursess" element={<Coursess />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+          <Route path="/coursess" element={<Coursess />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        
+      </div>
     </BrowserRouter>
   );
 };

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import "./Navbar.scss";
+import './navbar.scss'
+
 import Button from "../components/Button";
 import { Menu } from "lucide-react";
 import { X } from "lucide-react";

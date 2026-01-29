@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-
-=======
-import "./contact.scss";
->>>>>>> cc569e9cff61ef7884da593992f76657d1df555d
 import Button from "../components/Button";
 import Footer from "./Footer/Footer";
 import './contact.scss'

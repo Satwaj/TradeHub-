@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./masterclass.scss"
+import "./masterclass.scss";
 import Button from "../components/Button";
 
 

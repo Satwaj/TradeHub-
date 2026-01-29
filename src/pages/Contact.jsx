@@ -1,4 +1,4 @@
-import "./contact.scss"
+import "./contact.scss";
 import Button from "../components/Button";
 import Footer from "./Footer/Footer";
 

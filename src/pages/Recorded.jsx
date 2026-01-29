@@ -1,5 +1,5 @@
 import React from 'react'
-import './recorded.scss'
+import './recorded.scss';
 
 const Recorded = () => {
   return (

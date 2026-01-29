@@ -1,4 +1,4 @@
-import "./Button.scss";
+import "./button.scss"
 
 const Button = ({ children, variant = "primary", onClick, className = "" }) => {
   return (

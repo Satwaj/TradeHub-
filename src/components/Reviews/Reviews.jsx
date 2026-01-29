@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Reviews.scss";
+import "./reviews.scss"
 
 const reviewsData = [
   {

@@ -1,4 +1,4 @@
-import "./about.scss";
+import "./about.scss"
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
 import Reviews from "../components/Reviews/Reviews";
